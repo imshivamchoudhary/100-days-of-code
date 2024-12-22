@@ -4,7 +4,7 @@
 # // --> it is used to calculate floor divisin value
 # % --> it is modules it used to find the remainder of the value
 # ** --> it is a power
-a=2
+a=4
 b=6
 list1=[a+b,a-b,a/b,a*b,a//b,a%b,b**a]
 print(list1)
