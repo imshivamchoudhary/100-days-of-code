@@ -15,7 +15,7 @@ print(l)
 print(l.index(6))
 # 4 count():return the count of number of item with the given value 
 print(l.count(4))
-# 5 copy();return copy of the list thos can be done by perform operation on the list withot modifying the original list 
+# 5 copy();return copy of the list this can be done by perform operation on the list withot modifying the original list 
 s=l.copy()
 s[0]=0
 print(s)
