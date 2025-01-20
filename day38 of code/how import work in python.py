@@ -37,6 +37,6 @@ print(a)
 print(dir(math))
 print(math.sqrt,type(math.nan))
 
-from shivam import*
-welcome()
-print(shivam)
+import shivam as hr
+hr.welcome()
+print(hr.shivam)
