@@ -23,8 +23,8 @@ if b==True:
         e=[]
         for word in words:
             if(len(word)>=3):
-              r1 = "dsf"
-              r2 = "jkr"
+              r1 = "werdsf"
+              r2 = "tyrty"
               stnew = r1+ word[1:] + word[0] + r2
               e.append(stnew)
             else:
