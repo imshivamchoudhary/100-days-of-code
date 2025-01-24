@@ -20,24 +20,25 @@ if b==True:
     b==1
     print('you choose coding ')
     if b:
-        e=[]
+        e = []
         for word in words:
             if(len(word)>=3):
-              r1 = "werdsf"
-              r2 = "tyrty"
-              stnew = r1+ word[1:] + word[0] + r2
-              e.append(stnew)
+                r1 = "dsf"
+                r2 = "jkr"
+                stnew = r1+ word[1:] + word[0] + r2
+                e.append(stnew)
             else:
                 e.append(word[::-1])
         print(" ".join(e))
 else:
-    print('you choose decoding')
-    e=[]
+    e = []
     for word in words:
         if(len(word)>=3): 
-         stnew = word[3:-3]
-         stnew = stnew[-1] + stnew[:-1]
-         e.append(stnew)
+            stnew = word[3:-3]
+            stnew = stnew[-1] + stnew[:-1]
+            e.append(stnew)
         else:
             e.append(word[::-1])
     print(" ".join(e))
+  
+  
