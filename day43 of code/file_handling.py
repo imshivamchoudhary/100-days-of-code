@@ -12,3 +12,13 @@ f.close()
 # Modes in file 
 # 1 read(r):This mode opens the file for reading only and give an error if the file doesn,t exist.This is the default
 # mode,if no mode is passed as a parameter
+
+# 2 write(w):This mode open file for writing only and create a new file if the file does not exits 
+
+# 3 append(a):This mode opens the file for appending only and create a new file if the file does not exits 
+
+# 4 create(x):This mode create a file and gives an error if the file already exits
+
+# 5 text(t):Apart from these modes we also need to specify how the file must be handle.t mode is used to handle text file.
+# t refer to the text mode . there is a no difference between r and rt or w and wt since text mode is default.The default mode is 'r'
+# (open for reading text ,synonym of 'rt')
