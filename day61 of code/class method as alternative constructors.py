@@ -16,7 +16,9 @@ class employee:
 e=employee('Shivam',40000000)
 print(e.name)
 print(e.salary)
-
+e1=employee('vikash',300000)
+print(e1.name)
+print(e1.salary)
 string="shyam-50000000"
 e1=employee.fromstr(string )
 print(e1.name)
